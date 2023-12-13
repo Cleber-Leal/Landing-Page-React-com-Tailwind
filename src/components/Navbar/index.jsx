@@ -12,15 +12,15 @@ const Navbar = () => {
                 <a href="">En<span className='text-white'>cre</span></a>
             </h1>
             <nav className='hidden md:flex'>
-                <ul className='flex lg:gap-8'>
-                    <li className='p-4 border-b border-transparent hover:border-gray-200 ease-in-out duration-300'>
-                        <a href="#">Home</a>
+                <ul className='flex lg:gap-8 justify-center items-center'>
+                    <li className=''>
+                        <a href="#" className='py-4 px-2 border-b border-transparent hover:border-gray-200 ease-in-out duration-300'>Home</a>
                     </li>
-                    <li className='p-4 border-b border-transparent hover:border-gray-200 ease-in-out duration-300'>
-                        <a href="#">About</a>
+                    <li className=''>
+                        <a href="#" className='py-4 px-2 border-b border-transparent hover:border-gray-200 ease-in-out duration-300'>About</a>
                     </li>
-                    <li className='p-4 border-b border-transparent hover:border-gray-200 ease-in-out duration-300'>
-                        <a href="">Products</a>
+                    <li className=''>
+                        <a href="#" className='py-4 px-2 border-b border-transparent hover:border-gray-200 ease-in-out duration-300'>Products</a>
                     </li>
                     <li className='py-3 px-6 border border-[#0021df] bg-transparent text-[#0021df]  self-center rounded-lg hover:bg-white ease-in-out duration-300'>
                         <a href="#contact" className='p-3'>Contact</a>
@@ -43,10 +43,10 @@ const Navbar = () => {
                         <a href="#">About</a>
                     </li>
                     <li className='p-4 border-b border-gray-600'>
-                        <a href="">Products</a>
+                        <a href="#">Products</a>
                     </li>
                     <li className='p-4'>
-                        <a href="">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
             </nav>
